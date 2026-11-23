@@ -8,11 +8,11 @@ function Page(props) {
    return (
       <>
          <h1>React Events</h1>
-         <button>
+         <button onClick={makeAlert.bind(null, "Hello", props}>
             Hello Class
          </button>
          <br />
-         <button>
+         <button onClick={makeAlert.bind(null, "Welcome", props}>
             Welcome Class
          </button>
       </>
